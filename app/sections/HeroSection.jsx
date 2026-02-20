@@ -76,7 +76,7 @@ export default function HeroSection() {
             <div className="relative z-10 h-[calc(100%-4px)] w-[calc(100%-4px)] overflow-hidden rounded-lg">
               <iframe
                 className="h-full w-full"
-                src="https://www.youtube.com/embed/KiBzKcbaM_Q?autoplay=1&mute=1&playsinline=1&loop=1&playlist=KiBzKcbaM_Q&rel=0"
+                src="https://www.youtube.com/embed/KiBzKcbaM_Q?autoplay=1&mute=0&playsinline=1&loop=1&playlist=KiBzKcbaM_Q&rel=0"
                 title="Hero Video"
                 allow="autoplay; encrypted-media; picture-in-picture; web-share; "
                 allowFullScreen
