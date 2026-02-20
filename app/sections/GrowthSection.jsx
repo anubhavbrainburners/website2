@@ -60,5 +60,3 @@ export default function GrowthSection() {
     </section>
   );
 }
-
-

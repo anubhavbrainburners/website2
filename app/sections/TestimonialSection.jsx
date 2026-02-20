@@ -119,7 +119,13 @@ export default function TestimonialSection() {
             we analyze, fix, and structure it to generate more enquiries and
             better clients.
           </p>
-          <Button className="mt-6">Book Your Strategy Call</Button>
+          <a
+            href="https://cal.com/robin-thebrainburners.io/audit-with-robin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="mt-6">Book Your Strategy Call</Button>
+          </a>
         </AnimatedSection>
       </div>
     </section>
