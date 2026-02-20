@@ -10,8 +10,7 @@ export const metadata = {
   description:
     "We build high-converting websites that generate enquiries and sales. Strategy, design, and copy engineered to turn traffic into clients",
   
-  },
-};
+  }
 
 export default function RootLayout({ children }) {
   return (
