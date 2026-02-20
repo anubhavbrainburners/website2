@@ -147,6 +147,7 @@ body {
   position: absolute;
   inset: -2px;
   z-index: -1;
+  border: 0px solid;
   border-radius: 1rem;
   pointer-events: none;
   background: linear-gradient(180deg, rgba(27, 22, 18, 0.98), rgba(8, 6, 5, 0.95));

@@ -45,7 +45,7 @@ const rowTwo = [
     `"The messaging clarity changed everything. Users finally understood what we do."`,
   ],
   [
-    "Aditiya Sharma",
+    "Avneet Gujaral",
     `"Best part is fewer inquiries, but higher quality clients. Exactly what we needed.”`,
   ],
 ];
