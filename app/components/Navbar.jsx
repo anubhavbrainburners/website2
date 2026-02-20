@@ -23,12 +23,12 @@ export default function Navbar() {
 
         <div className="hidden md:block">
           <a
-            href="https://www.instagram.com/websitewithrobin?igsh=bnJha25rb3poOHlx&utm_source=qr"
+            href="https://cal.com/robin-thebrainburners.io/audit-with-robin"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Button variant="secondary" className="h-12 px-10 text-base">
-              Our Work
+              Get In Touch
             </Button>
           </a>
         </div>

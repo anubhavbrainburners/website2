@@ -128,7 +128,7 @@ export default function ServiceSection() {
             rel="noopener noreferrer"
           >
             <Button variant="secondary" className="h-12 px-10 text-base">
-              Our Work
+              Get In Touch
             </Button>
           </a>
         </div>
