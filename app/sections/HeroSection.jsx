@@ -14,7 +14,12 @@ export default function HeroSection() {
   });
 
   const zoomRaw = useTransform(scrollYProgress, [0, 0.5, 1], [0.9, 1, 1.1]);
-  const zoom = useSpring(zoomRaw, { stiffness: 110, damping: 24, mass: 0.25 });
+  const zoom = useSpring(zoomRaw, {
+    stiffness: 95,
+    damping: 28,
+    mass: 0.35,
+    restDelta: 0.001,
+  });
 
   return (
     <section className="relative mx-auto max-w-screen-md px-6 text-center lg:px-0">
@@ -80,7 +85,7 @@ export default function HeroSection() {
             whileInView={{ scale: 1 }}
             viewport={{ once: true, amount: 0.4 }}
             initial={{ scale: 0.84 }}
-            transition={{ duration: 1.0, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 1.12, ease: [0.16, 1, 0.3, 1] }}
             className="relative mx-auto flex aspect-video w-full items-center justify-center"
             style={{ scale: zoom }}
           >

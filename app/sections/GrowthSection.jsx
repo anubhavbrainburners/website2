@@ -44,7 +44,7 @@ export default function GrowthSection() {
           initial={{ opacity: 0, rotate: 30 }}
           whileInView={{ opacity: 1, rotate: 40 }}
           viewport={{ once: true, amount: 0.25 }}
-          transition={{ duration: 1.25, ease: [0.22, 1, 0.36, 1] }}
+          transition={{ duration: 1.35, ease: [0.16, 1, 0.3, 1] }}
         >
           <div className="bg-background absolute inset-0 h-[60vh] w-full translate-y-1/3 scale-[1.8] rounded-full blur-3xl md:h-[130rem] md:translate-y-[20%] md:scale-125" />
           <Image

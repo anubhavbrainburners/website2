@@ -15,7 +15,7 @@ export default function Button({ children, variant = "primary", className = "", 
     <motion.button
       whileHover={{ scale: 1.02, y: -1 }}
       whileTap={{ scale: 0.98 }}
-      transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+      transition={{ type: "spring", stiffness: 300, damping: 24, mass: 0.55 }}
       className={`${baseClass} ${variantClass} ${className}`}
       {...props}
     >

@@ -12,7 +12,7 @@ export default function FeatureCard({ item }) {
           opacity: 1,
           y: 0,
           scale: 1,
-          transition: { duration: 0.75, ease: [0.22, 1, 0.36, 1] }
+          transition: { duration: 0.88, ease: [0.16, 1, 0.3, 1] }
         }
       }}
       className="from-accent mx-auto flex max-w-4xl flex-col justify-center gap-5 rounded-xl border border-border bg-gradient-to-r p-6 md:p-8 md:flex-row"

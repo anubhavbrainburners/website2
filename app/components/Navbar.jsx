@@ -40,10 +40,12 @@ export default function Navbar() {
         >
           <motion.span
             animate={{ rotate: open ? 45 : 0, y: open ? 5 : -4 }}
+            transition={{ type: "spring", stiffness: 360, damping: 28, mass: 0.45 }}
             className="absolute left-2 right-2 top-1/2 h-[1.5px] bg-foreground"
           />
           <motion.span
             animate={{ rotate: open ? -45 : 0, y: open ? 5 : 4 }}
+            transition={{ type: "spring", stiffness: 360, damping: 28, mass: 0.45 }}
             className="absolute left-2 right-2 top-1/2 h-[1.5px] bg-foreground"
           />
         </button>

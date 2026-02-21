@@ -3,8 +3,8 @@ export const staggerWrap = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.11,
-      delayChildren: 0.08
+      staggerChildren: 0.14,
+      delayChildren: 0.1
     }
   }
 };

@@ -60,19 +60,22 @@ export default function ServiceSection() {
   });
 
   const leftY = useSpring(useTransform(scrollYProgress, [0, 1], [0, -320]), {
-    stiffness: 125,
-    damping: 24,
-    mass: 0.32,
+    stiffness: 100,
+    damping: 28,
+    mass: 0.38,
+    restDelta: 0.001,
   });
   const middleY = useSpring(useTransform(scrollYProgress, [0, 1], [0, -110]), {
-    stiffness: 120,
-    damping: 26,
-    mass: 0.32,
+    stiffness: 95,
+    damping: 30,
+    mass: 0.4,
+    restDelta: 0.001,
   });
   const rightY = useSpring(useTransform(scrollYProgress, [0, 1], [0, -320]), {
-    stiffness: 125,
-    damping: 24,
-    mass: 0.32,
+    stiffness: 100,
+    damping: 28,
+    mass: 0.38,
+    restDelta: 0.001,
   });
 
   const yByIndex = [leftY, middleY, rightY];
@@ -114,9 +117,9 @@ export default function ServiceSection() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{
-                  duration: 1.0,
-                  delay: index * 0.12,
-                  ease: [0.22, 1, 0.36, 1],
+                  duration: 1.12,
+                  delay: index * 0.14,
+                  ease: [0.16, 1, 0.3, 1],
                 }}
                 className={`${index === 1 ? "z-10" : "z-0"}`}
                 style={{ y: yByIndex[index] }}

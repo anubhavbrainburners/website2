@@ -29,9 +29,9 @@ export default function AnimatedSection({
       initial={{ opacity: 0, y: prefersReducedMotion ? 0 : isMobile ? 8 : y }}
       animate={isIntersecting ? { opacity: 1, y: 0 } : once ? {} : { opacity: 0, y }}
       transition={{
-        duration: prefersReducedMotion ? 0.2 : isMobile ? 0.55 : 0.9,
+        duration: prefersReducedMotion ? 0.2 : isMobile ? 0.68 : 1.02,
         delay,
-        ease: [0.22, 1, 0.36, 1]
+        ease: [0.16, 1, 0.3, 1]
       }}
       className={`${className} will-change-transform`}
     >
