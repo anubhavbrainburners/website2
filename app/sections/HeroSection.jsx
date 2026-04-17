@@ -1,5 +1,4 @@
-﻿"use client";
-
+"use client";
 import { useRef } from "react";
 import Image from "next/image";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
@@ -79,12 +78,12 @@ export default function HeroSection() {
           </div>
         </AnimatedSection>
 
-        <AnimatedSection delay={0.5} className="pt-14 md:pt-20">
+        <AnimatedSection className="pt-14 md:pt-20">
           <motion.div
             ref={videoRef}
             whileInView={{ scale: 1 }}
             viewport={{ once: true, amount: 0.4 }}
-            initial={{ scale: 0.84 }}
+            initial={{ scale: 0.70 }}
             transition={{ duration: 1.12, ease: [0.16, 1, 0.3, 1] }}
             className="relative mx-auto flex aspect-video w-full items-center justify-center"
             style={{ scale: zoom }}

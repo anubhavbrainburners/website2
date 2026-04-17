@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from "framer-motion";
 import AnimatedSection from "../components/AnimatedSection";
@@ -75,7 +75,7 @@ function MarqueeRow({ list, duration = "50s" }) {
 
 export default function TestimonialSection() {
   return (
-    <section id="proof" className="relative space-y-28 overflow-hidden pb-16">
+    <section id="proof" className="relative space-y-20 overflow-hidden pb-16 [content-visibility:auto] [contain-intrinsic-size:1400px]">
       <div className="absolute inset-0 -z-10 flex h-[60vh] w-full -translate-y-1/4 justify-between overflow-hidden md:h-[150rem]">
         <div className="bg-accent h-[30rem] w-[40rem] -translate-x-full translate-y-1/3 rounded-[50%] blur-3xl md:h-[65rem]" />
         <div className="bg-accent relative right-0 h-[30rem] w-[40rem] translate-x-full translate-y-full rounded-[50%] blur-3xl md:h-[65rem] md:translate-y-1/2" />

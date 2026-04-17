@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
@@ -59,23 +59,25 @@ export default function ServiceSection() {
     offset: ["start 92%", "end 12%"],
   });
 
-  const leftY = useSpring(useTransform(scrollYProgress, [0, 1], [0, -320]), {
-    stiffness: 100,
-    damping: 28,
-    mass: 0.38,
-    restDelta: 0.001,
+  const leftY = useSpring(useTransform(scrollYProgress, [0, 1], [50, -260]), {
+    stiffness: 60,
+    damping: 35,
+    mass: 0.8,
+    restDelta: 0.5,
   });
-  const middleY = useSpring(useTransform(scrollYProgress, [0, 1], [0, -110]), {
-    stiffness: 95,
-    damping: 30,
-    mass: 0.4,
-    restDelta: 0.001,
+
+  const middleY = useSpring(useTransform(scrollYProgress, [0, 1], [60, -150]), {
+    stiffness: 55,
+    damping: 38,
+    mass: 0.85,
+    restDelta: 0.5,
   });
-  const rightY = useSpring(useTransform(scrollYProgress, [0, 1], [0, -320]), {
-    stiffness: 100,
-    damping: 28,
-    mass: 0.38,
-    restDelta: 0.001,
+
+  const rightY = useSpring(useTransform(scrollYProgress, [0, 1], [50, -320]), {
+    stiffness: 60,
+    damping: 35,
+    mass: 0.8,
+    restDelta: 0.5,
   });
 
   const yByIndex = [leftY, middleY, rightY];
@@ -83,10 +85,10 @@ export default function ServiceSection() {
   return (
     <section
       id="service"
-      className="relative space-y-16 overflow-hidden md:space-y-24"
+      className="relative space-y-16 overflow-hidden [content-visibility:auto] [contain-intrinsic-size:1600px] md:space-y-24"
     >
-      <div className="space-y-10 md:space-y-20">
-        <div className="mx-auto mt-32 max-w-md space-y-5 text-center md:max-w-screen-md md:space-y-8">
+      <div className="space-y-10">
+        <div className="mx-auto mt-24 max-w-md space-y-5 text-center md:max-w-screen-md md:space-y-8">
           <AnimatedSection>
             <p className="text-sm-semibold from-secondary via-primary to-secondary bg-gradient-to-r bg-clip-text text-transparent md:text-xl">
               WE BUILD
@@ -139,6 +141,7 @@ export default function ServiceSection() {
                     playsInline
                     loop
                     muted
+                    preload="metadata"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -147,14 +150,10 @@ export default function ServiceSection() {
           )}
         </div>
 
-        <div className="flex justify-center pb-6 md:pb-8">
-          <a
-            href="https://cal.com/robin-thebrainburners.io/audit-with-robin"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <div className="flex justify-center pb-6 md:pb-8 mt-20">
+          <a href="/portfolio">
             <Button variant="secondary" className="h-12 px-10 text-base">
-              Get In Touch
+              Our Work
             </Button>
           </a>
         </div>

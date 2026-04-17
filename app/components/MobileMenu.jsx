@@ -40,15 +40,13 @@ export default function MobileMenu({ open, onClose }) {
             <Link href="#proof" onClick={onClose} className="block">
               Results
             </Link>
-            <a
-              href="https://www.instagram.com/websitewithrobin?igsh=bnJha25rb3poOHlx&utm_source=qr"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/portfolio"
               onClick={onClose}
               className="block w-full rounded-full border border-primary px-5 py-3 text-center text-primary"
             >
               Our Work
-            </a>
+            </Link>
           </div>
         </motion.div>
       ) : null}

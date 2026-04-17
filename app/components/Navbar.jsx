@@ -2,15 +2,15 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
-import Button from "./Button";
 import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 bg-transparent">
+    <header className="top-0 z-40 bg-transparent">
       <div className="relative mx-auto mt-0 flex max-w-[1280px] items-center justify-between px-6 pt-10 pb-20 md:mx-16 md:py-2 lg:mx-28">
         <Image
           src="/img2.png"
@@ -22,15 +22,12 @@ export default function Navbar() {
         />
 
         <div className="hidden md:block">
-          <a
-            href="https://cal.com/robin-thebrainburners.io/audit-with-robin"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/portfolio"
+            className="secondary-btn-animation inline-flex h-12 items-center justify-center rounded-full border border-primary px-10 text-base text-primary"
           >
-            <Button variant="secondary" className="h-12 px-10 text-base">
-              Get In Touch
-            </Button>
-          </a>
+            Our Work
+          </Link>
         </div>
 
         <button
@@ -39,14 +36,31 @@ export default function Navbar() {
           onClick={() => setOpen((state) => !state)}
         >
           <motion.span
-            animate={{ rotate: open ? 45 : 0, y: open ? 5 : -4 }}
-            transition={{ type: "spring", stiffness: 360, damping: 28, mass: 0.45 }}
-            className="absolute left-2 right-2 top-1/2 h-[1.5px] bg-foreground"
+            animate={{
+              rotate: open ? 45 : 0,
+              y: open ? 0 : -6,
+            }}
+            transition={{
+              type: "spring",
+              stiffness: 220,
+              damping: 20,
+              mass: 0.6,
+            }}
+            className="absolute left-2 right-2 top-1/2 h-[1.5px] -translate-y-1/2 bg-foreground"
           />
+
           <motion.span
-            animate={{ rotate: open ? -45 : 0, y: open ? 5 : 4 }}
-            transition={{ type: "spring", stiffness: 360, damping: 28, mass: 0.45 }}
-            className="absolute left-2 right-2 top-1/2 h-[1.5px] bg-foreground"
+            animate={{
+              rotate: open ? -45 : 0,
+              y: open ? 0 : 6,
+            }}
+            transition={{
+              type: "spring",
+              stiffness: 220,
+              damping: 20,
+              mass: 0.6,
+            }}
+            className="absolute left-2 right-2 top-1/2 h-[1.5px] -translate-y-1/2 bg-foreground"
           />
         </button>
       </div>

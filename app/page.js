@@ -4,6 +4,7 @@ import HeroSection from "./sections/HeroSection";
 import GrowthSection from "./sections/GrowthSection";
 import ServiceSection from "./sections/ServiceSection";
 import TestimonialSection from "./sections/TestimonialSection";
+import BuyNowButton from "./components/portfolio-select/BuyNowButton";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
         <TestimonialSection />
       </main>
       <Footer />
+      <BuyNowButton />
     </div>
   );
 }

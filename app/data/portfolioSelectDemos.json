@@ -1,0 +1,103 @@
+[
+  {
+    "id": "demo-1",
+    "title": "Menoveda",
+    "href": "/case-studies/menoveda",
+    "img1": "/portfolio-select/demo/index.png",
+    "img2": "/portfolio-select/demo/works.png",
+    "img3": "/portfolio-select/demo/about.png",
+    "backgroundColorHover": "#00000",
+    "accentColorHover": "white"
+  },
+  {
+    "id": "demo-2",
+    "title": "Main Demo Light",
+    "href": "/case-studies/neesh",
+    "img1": "/portfolio-select/demo/02_index.webp",
+    "img2": "/portfolio-select/demo/02_works.webp",
+    "img3": "/portfolio-select/demo/02_about.webp",
+    "backgroundColorHover": "white",
+    "accentColorHover": "black"
+  },
+  {
+    "id": "demo-6",
+    "title": "Freelancer",
+    "href": "/case-studies/orion",
+    "img1": "/portfolio-select/demo/06_index.webp",
+    "img2": "/portfolio-select/demo/06_works.webp",
+    "img3": "/portfolio-select/demo/06_blog.webp",
+    "backgroundColorHover": "#FF6408",
+    "accentColorHover": "black"
+  },
+  {
+    "id": "demo-7",
+    "title": "Freelancer Light",
+    "href": "https://www.madebydesignesia.com/themes/nathan/07_index.html",
+    "img1": "/portfolio-select/demo/07_index.webp",
+    "img2": "/portfolio-select/demo/07_works.webp",
+    "img3": "/portfolio-select/demo/07_blog.webp",
+    "backgroundColorHover": "#99F04A",
+    "accentColorHover": "black"
+  },
+  {
+    "id": "demo-3",
+    "title": "Makeup Artist",
+    "href": "https://www.madebydesignesia.com/themes/nathan/03_index.html",
+    "img1": "/portfolio-select/demo/03_index.webp",
+    "img2": "/portfolio-select/demo/03_works.webp",
+    "img3": "/portfolio-select/demo/03_about.webp",
+    "backgroundColorHover": "#C480A5",
+    "accentColorHover": "white"
+  },
+  {
+    "id": "demo-4",
+    "title": "Fitness Trainer",
+    "href": "https://www.madebydesignesia.com/themes/nathan/05_index.html",
+    "img1": "/portfolio-select/demo/05_index.webp",
+    "img2": "/portfolio-select/demo/05_about.webp",
+    "img3": "/portfolio-select/demo/05_works.webp",
+    "backgroundColorHover": "#C5FF00",
+    "accentColorHover": "black"
+  },
+  {
+    "id": "demo-5",
+    "title": "Photographer",
+    "href": "https://www.madebydesignesia.com/themes/nathan/04_index.html",
+    "img1": "/portfolio-select/demo/04_index.webp",
+    "img2": "/portfolio-select/demo/04_works.webp",
+    "img3": "/portfolio-select/demo/04_about.webp",
+    "backgroundColorHover": "#303030",
+    "accentColorHover": "white"
+  },
+  {
+    "id": "demo-8",
+    "title": "Chef",
+    "href": "https://www.madebydesignesia.com/themes/nathan/08_index.html",
+    "img1": "/portfolio-select/demo/08_index.webp",
+    "img2": "/portfolio-select/demo/08_services.webp",
+    "img3": "/portfolio-select/demo/08_testimonials.webp",
+    "backgroundColorHover": "#FFD291",
+    "accentColorHover": "black"
+  },
+  {
+    "id": "demo-9",
+    "title": "Web Designer",
+    "href": "https://www.madebydesignesia.com/themes/nathan/09_index.html",
+    "img1": "/portfolio-select/demo/09_index.webp",
+    "img2": "/portfolio-select/demo/09_services.webp",
+    "img3": "/portfolio-select/demo/09_works.webp",
+    "backgroundColorHover": "#F05335",
+    "accentColorHover": "white"
+  },
+  {
+    "id": "demo-10",
+    "title": "Financial Manager",
+    "href": "https://www.madebydesignesia.com/themes/nathan/10_index.html",
+    "img1": "/portfolio-select/demo/10_index.webp",
+    "img2": "/portfolio-select/demo/10_services.webp",
+    "img3": "/portfolio-select/demo/10_blog.webp",
+    "backgroundColorHover": "#FAAA00",
+    "accentColorHover": "white"
+  }
+]
+
